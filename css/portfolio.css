@@ -537,45 +537,28 @@ mySlides {
 
 /*movePopup animation moves button from right side of the screen to fixed location on the viewport*/
 @keyframes movePopup {
-    from {
-        right: -40vw;
-    }
-
-    to {
-        right: 1.75vw;
-    }
+    from {right: -40vw;}
+    to { right: 1.75vw;}
 }
 
 @-webkit-keyframes movePopup {
-    from {
-        right: -40vw;
-    }
-
-    to {
-        right: 1.75vw;
-    }
+    from {right: -40vw;}
+    to { right: 1.75vw;}
 }
 
 /*styling for contact form*/
 .form-popup {
-    z-index: 8;
-    /* This z-index ensures the contact form shows above all other elements on the page */
-    display: none;
-    /* Set the display to none, we will use JavaScript to show the contact form */
-    position: fixed;
-    /* The form stays in the same location no matter what */
-    bottom: .5vw;
-    /* Slightly up from the bottom of the viewport */
-    right: .5vw;
-    /* Slightly in from the right side of the viewport */
+    z-index: 8; /* This z-index ensures the contact form shows above all other elements on the page */
+    display: none; /* Set the display to none, we will use JavaScript to show the contact form */
+    position: fixed; /* The form stays in the same location no matter what */
+    bottom: .5vw; /* Slightly up from the bottom of the viewport */
+    right: .5vw; /* Slightly in from the right side of the viewport */
 }
 
 /*form styling*/
 .form-container {
-    max-width: 49vw;
-    /* Relative sizing of the form container - 49% of the viewport width */
-    padding: 1vw;
-    /* Adds padding between the form-popup and the form-container */
+    max-width: 49vw; /* Relative sizing of the form container - 49% of the viewport width */
+    padding: 1vw; /* Adds padding between the form-popup and the form-container */
     background-color: white;
 }
 
@@ -642,57 +625,39 @@ button:hover,
 
 /*media rules for paragraph font size for different screen sizes*/
 @media screen and (max-width: 527px) {
-    p {
-        font-size: 3.75vw;
-    }
+    p {font-size: 3.75vw;}
 }
 
 @media screen and (min-width: 528px) and (max-width: 660px) {
-    p {
-        font-size: 3.5vw;
-    }
+    p {font-size: 3.5vw;}
 }
 
 @media screen and (min-width: 661px) and (max-width: 799px) {
-    p {
-        font-size: 2.75vw;
-    }
+    p {font-size: 2.75vw;}
 }
 
 @media screen and (min-width: 800px) and (max-width: 924px) {
-    p {
-        font-size: 2.5vw;
-    }
+    p {font-size: 2.5vw;}
 }
 
 @media screen and (min-width: 925px) and (max-width: 1050px) {
-    p {
-        font-size: 2.25vw;
-    }
+    p {font-size: 2.25vw;}
 }
 
 @media screen and (min-width: 1051px) and (max-width: 1310px) {
-    p {
-        font-size: 2vw;
-    }
+    p {font-size: 2vw;}
 }
 
 @media screen and (min-width: 1311px) and (max-width: 1535px) {
-    p {
-        font-size: 1.75vw;
-    }
+    p {font-size: 1.75vw;}
 }
 
 @media screen and (min-width: 1536px) and (max-width: 2269px) {
-    p {
-        font-size: 1.5vw;
-    }
+    p {font-size: 1.5vw;}
 }
 
 @media screen and (min-width: 2270px) {
-    p {
-        font-size: 1.35vw;
-    }
+    p {font-size: 1.35vw;}
 }
 
 /*Media rule for navbar links for different screen sizes*/
