@@ -46,7 +46,7 @@ function showSlides(n) {
 
 //event listener for any clicks for closing contact form
 document.addEventListener("click", function (event) {
-    //if a click happens on the cancel button or anywhere not in contact orm and the click does not happen on any element with the contact class, 
+    //if a click happens on the cancel button or anywhere not in contact form and the click does not happen on any element with the contact class, 
     //then call closeForm() function
     if (event.target.matches(".cancel") || !event.target.closest(".form-popup") && !event.target.closest(".Pop_Up_Button") &&
         !event.target.closest(".contact")) {
@@ -55,7 +55,7 @@ document.addEventListener("click", function (event) {
 }, false)
 
 
-
+//sparkle cursor
 var colour = "random"; // "random" can be replaced with any valid colour ie: "red"...
 var sparkles = 100;// increase of decrease for number of sparkles falling
 
