@@ -25,11 +25,10 @@ body {
 }
 
 /*NEW - contributing to fade-in for page loading*/
-body.fade-out {
+/*body.fade-out {
     opacity: .1;
     /*setting level of opacity at the start of page load*/
-}
-
+   
 /* Heading 1 elements */
 h1 {
     text-transform: uppercase;
