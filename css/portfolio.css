@@ -160,23 +160,23 @@ footer {
     z-index: 1;
     /* This ensures other elements don't display over the navbar */
     -webkit-animation: moveNav 5s;
-    /* This applies the moveNav animation below for Safari 4.0 - 8.0 */
+    /* This applies the moveNav animation below for Safari 4.0 - 8.0 
     animation: moveNav 5s;
-    /* This applies the moveNav animation for all other browsers */
+   This applies the moveNav animation for all other browsers */
 }
 
-/* moveNav animation effect for moving the nav bar in from the left of the screen */
+/* moveNav animation effect for moving the nav bar in from the left of the screen 
 @keyframes moveNav {
     from {
         left: -100vw;
     }
 
-    /*The navbar is starting off screen to the left*/
+    The navbar is starting off screen to the left
     to {
         left: 0vw;
     }
 
-    /*moves the navbar into place on the screen*/
+   moves the navbar into place on the screen*/
 }
 
 /* Navbar links */
@@ -534,7 +534,7 @@ mySlides {
     animation: movePopup 5s;
 }
 
-/*movePopup animation moves button from right side of the screen to fixed location on the viewport*/
+/*movePopup animation moves button from right side of the screen to fixed location on the viewport
 @keyframes movePopup {
     from {right: -40vw;}
     to { right: 1.75vw;}
