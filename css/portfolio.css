@@ -446,31 +446,31 @@ mySlides {
     -webkit-animation-duration: 1.5s;
 }
 
-@-webkit-keyframes fade {
+/*@-webkit-keyframes fade {
     from {
         opacity: .4;
     }
 
-    /*Image starts transparent*/
+    Image starts transparent
     to {
         opacity: 1;
     }
 
     /*Image ends opaque*/
-}
 
-@keyframes fade {
+
+/*@keyframes fade {
     from {
         opacity: .4;
     }
 
-    /*Image starts transparent*/
+    Image starts transparent
     to {
         opacity: 1;
     }
 
-    /*Image ends opaque*/
-}
+    Image ends opaque*/
+
 
 /* END SLIDESHOW STYLING */
 
