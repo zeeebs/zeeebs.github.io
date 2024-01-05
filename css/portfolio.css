@@ -117,8 +117,8 @@ q {
 
 /* Image elements */
 img {
-    filter: grayscale(75%);
-    /* This rids our pictures of 75% of their color */
+    /* filter: grayscale(75%);
+    This rids our pictures of 75% of their color */
     border-radius: 8px;
     /* Gives all images slightly rounded corners */
     max-width: 100%;
@@ -130,11 +130,11 @@ img {
     margin: auto auto auto auto;
 }
 
-/* Image element hover effects */
+/* Image element hover effects 
 img:hover {
-    filter: grayscale(5%);
-    /* Brings back most of the image's color when hovered over */
-}
+    filter: grayscale(5%); }
+    Brings back most of the image's color when hovered over */
+
 
 /* Styling for footer element */
 footer {
