@@ -301,10 +301,10 @@ footer {
 
 /* NEW */
 /* SLIDESHOW STYLING */
-#Slideshow_Background {
+/*#Slideshow_Background {
     background: rgba(225, 225, 225, 0.35);
     /*creating a slightly transparent white background palced over video*/
-}
+
 
 mySlides {
     display: none;
