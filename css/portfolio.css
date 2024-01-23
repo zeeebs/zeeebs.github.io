@@ -447,9 +447,12 @@ mySlides {
 }
 
 video.center {
-    display: block;
-    margin-top: auto;
-    margin-bottom: auto;
+    position: fixed;
+    /* This fixes the video to the page */
+    right: 0;
+    /* This ensures there is no space between the edge of the video and the edge of the page */
+    bottom: 0;
+    /* This ensures no space between the bottom of the video and the bottom of the page */
 }
 
 /*@-webkit-keyframes fade {
