@@ -446,14 +446,6 @@ mySlides {
     -webkit-animation-duration: 1.5s;
 }
 
-video.center {
-    position: fixed;
-    /* This fixes the video to the page */
-    right: 0;
-    /* This ensures there is no space between the edge of the video and the edge of the page */
-    bottom: 0;
-    /* This ensures no space between the bottom of the video and the bottom of the page */
-}
 
 /*@-webkit-keyframes fade {
     from {
@@ -509,6 +501,14 @@ video.center {
     height: 475px;
     background-color: rgb(59, 59, 74);
 }
+
+.center {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
 
 /* This inserts something after the content of selected elements (in this case the elements with class "Row") */
 .Row:after {
