@@ -446,6 +446,12 @@ mySlides {
     -webkit-animation-duration: 1.5s;
 }
 
+video.center {
+    display: block;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
 /*@-webkit-keyframes fade {
     from {
         opacity: .4;
