@@ -446,6 +446,7 @@ mySlides {
     -webkit-animation-duration: 1.5s;
 }
 
+}
 
 /*@-webkit-keyframes fade {
     from {
@@ -501,7 +502,6 @@ mySlides {
     height: 475px;
     background-color: rgb(59, 59, 74);
 }
-
 
 /* This inserts something after the content of selected elements (in this case the elements with class "Row") */
 .Row:after {
