@@ -497,7 +497,7 @@ mySlides {
 .Column_2 {
     float: left;
     width: 50%;
-    padding: 1.6%;
+    /*padding: 1.6%;*/
     height: 475px;
     background-color: rgb(59, 59, 74);
 }
